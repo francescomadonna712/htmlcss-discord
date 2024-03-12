@@ -1,0 +1,228 @@
+/* css reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* inizio header */
+.box-header{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    height: 610px;
+    background-color: #ADD8E6;
+}
+/* nav bar */
+.nav{
+    width: 1250px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    height: 2rem;
+    margin-top: 1rem;   
+    background-color: #DAA520;
+    border-style: dashed;
+    
+}   
+
+.logo{
+    padding-left: 1rem;
+    width: 25%;
+    display: flex;
+    border-right-style: dashed;
+}
+
+.link{
+    justify-content: center;
+    width: 50%;
+    padding: 0 10rem 0 10rem;
+    display: flex;
+}
+
+.login{
+    justify-content: flex-end;
+    width: 25%;
+    padding-right: 1rem;
+    display: flex;
+    border-left-style: dashed ;
+}
+/* Jumbotron blu con box rosa */
+.jumbotron{
+    margin-top: 1rem;
+    display: flex;
+    height: 520px;;
+    width: 100vw;
+    background-color:#00008B;
+}
+
+.big-box{
+    margin: auto;
+    display:flex;
+    background-color: #EE82EE;
+    height: 450px;
+    width: 945px;
+    border-style: dashed;
+}
+/* fine header */
+
+/* main */
+
+/* primo box */
+.box-main{
+    display: flex;
+    height: 625px;
+}
+
+.container{
+    margin: auto;
+    width: 1250px;
+    display: flex;
+}
+.box-blu{
+    background-color:#1E90FF ;
+    width: calc(70%);
+    height: 30rem;
+    border-style: dashed;
+}
+
+.box-pink{
+    background-color: #FFC0CB;
+    width: calc(30%);
+    height: 30rem;
+    border-style: dashed;
+    
+}
+
+/* secondo box */
+
+.box-main1{
+    background-color: #D3D3D3;
+    display: flex;
+    height: 625px;
+}
+
+.container{
+    margin: auto;
+    width: 1250px;
+    display: flex;
+}
+.box-blu1{
+    background-color: #FFC0CB;
+    width: calc(30%);
+    height: 30rem;
+    border-style: dashed;
+}
+
+.box-pink1{
+    background-color: #1E90FF;
+    width: calc(70%);
+    height: 30rem;
+    border-style: dashed;
+}
+ /* terzo box */
+ .container{
+    margin: auto;
+    width: 1250px;
+    display: flex;
+}
+.box-blu{
+    background-color: #1E90FF;
+    width: calc(70%);
+    height: 30rem;
+    border-style: dashed;
+}
+
+.box-pink{
+    background-color: #FFC0CB;
+    width: calc(30%);
+    height: 30rem;
+    border-style: dashed;
+    
+}
+/* box verde */
+.grey-box{
+    margin-top: 1rem;
+    display: flex;
+    height: 1040px;;
+    background-color: #D3D3D3;
+}
+
+.green-box{
+    margin: auto;
+    display:flex;
+    background-color: #228B22;
+    height: 950px;
+    width: 1250px;
+    border-style: dashed;
+}
+/* fine box verde */
+
+/* inizio footer */
+.box-footer{
+    display: flex;
+    height: 660px;
+    background-color:  #23272A;
+}
+.container-footer{
+    margin: auto;
+    width: 1250px;
+    display: flex;
+}
+/* box diviso */
+.box-red{
+    border-style: dashed;
+    margin-bottom: 40px;
+    background-color: #F08080;
+    width: calc(60%);
+    height: 600px;
+   
+}
+
+.box-acqua{ 
+    margin-bottom: 40px;
+    background-color: #20B2AA;
+    width: calc(40%);
+    height: 600px;
+    border-style: dashed;
+    border-color: white;
+    
+}
+/* hr e finale */
+
+.box-footer1{
+    display: flex;
+    height: 70px;
+    background-color: #23272A;
+}
+
+.final-footer{
+    justify-content: space-between;
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+    height: 3rem;
+    margin-top: 1rem;   
+    background-color: #7FFFD4;
+       
+}
+
+.logo-footer{  
+    background-color: #FFB6C1;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    border-style: dashed;
+}
+
+.button-footer{
+    background-color: #FFB6C1;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    border-style: dashed;
+}
+
+/* fine */
