@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
+    font-family: sans-serif;
 }
 
 /* inizio header */
@@ -12,7 +12,7 @@
     justify-content: center;
     display: flex;
     height: 610px;
-    background-color: #ADD8E6;
+    background-color: #2A5EE8;
 }
 /* nav bar */
 .nav{
@@ -20,41 +20,48 @@
     margin: auto;
     align-items: center;
     display: flex;
-    height: 2rem;
-    margin-top: 1rem;   
-    background-color: #DAA520;
-    border-style: dashed;
-    
-}   
-
-.logo{
-    padding-left: 1rem;
-    width: 25%;
-    display: flex;
-    border-right-style: dashed;
+    padding:3px;
+    margin-top: 1%;   
 }
 
+.logo{
+    width: 25%;
+    display: flex;
+}
+
+.link a{
+    color: white;
+    margin: auto;
+    padding: 2px;
+    text-decoration: none;
+}   
 .link{
     justify-content: center;
     width: 50%;
-    padding: 0 10rem 0 10rem;
     display: flex;
 }
 
-.login{
+.login {
     justify-content: flex-end;
     width: 25%;
-    padding-right: 1rem;
+    
     display: flex;
-    border-left-style: dashed ;
+}
+
+.login button{
+    font-weight: bold;
+    background-color: white;
+    padding: 7px 15px;
+    border-radius: 30px;
+    border:1px solid white;
 }
 /* Jumbotron blu con box rosa */
 .jumbotron{
+    background-color: #1E90FF;
     margin-top: 1rem;
     display: flex;
     height: 520px;;
     width: 100vw;
-    background-color:#00008B;
 }
 
 .big-box{
