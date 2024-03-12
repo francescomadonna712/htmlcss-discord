@@ -8,14 +8,16 @@
 
 /* inizio header */
 .box-header{
+    background-color: #2A5EE8;
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
     height: 610px;
-    background-color: #2A5EE8;
+    
 }
-/* nav bar */
+           /***************** nav bar ***************** */
 .nav{
+    background-color: #2A5EE8;
     width: 1250px;
     margin: auto;
     align-items: center;
@@ -44,7 +46,6 @@
 .login {
     justify-content: flex-end;
     width: 25%;
-    
     display: flex;
 }
 
@@ -55,23 +56,58 @@
     border-radius: 30px;
     border:1px solid white;
 }
+         /**************** fine nav ***************** /
+
 /* Jumbotron blu con box rosa */
 .jumbotron{
-    background-color: #1E90FF;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 1rem;
-    display: flex;
-    height: 520px;;
-    width: 100vw;
+    width: 100%;
 }
 
 .big-box{
+    flex-wrap: wrap;
     margin: auto;
     display:flex;
-    background-color: #EE82EE;
-    height: 450px;
-    width: 945px;
-    border-style: dashed;
+    height: 350px;
+    width: 900px;
+    
+    justify-content: center;
 }
+
+.big-box h1{
+    font-size: 45px;
+    color: white;
+    margin: auto;
+    
+    
+}
+
+ .big-box p {
+    font-size: medium;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.big-box button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+#button1{
+    background-color: #23272A;
+    color: white;
+}
+
+
 /* fine header */
 
 /* main */
@@ -88,45 +124,70 @@
     display: flex;
 }
 .box-blu{
-    background-color:#1E90FF ;
+    background-image: url(../img/item1.svg);
+    background-repeat: no-repeat;
     width: calc(70%);
     height: 30rem;
-    border-style: dashed;
+    
 }
 
 .box-pink{
-    background-color: #FFC0CB;
+    font-size: 25px;    
+    justify-content: center;
     width: calc(30%);
     height: 30rem;
-    border-style: dashed;
     
+}
+.box-pink h1{
+    
+    font-size: 40px;
+    padding-right: 100px;
+}
+.box-pink p{
+    
+    padding-top: 50px;
+    font-size: 20px;
 }
 
 /* secondo box */
 
 .box-main1{
-    background-color: #D3D3D3;
+   background-color: #F6F6F6;
     display: flex;
     height: 625px;
 }
 
 .container{
+    
     margin: auto;
     width: 1250px;
     display: flex;
 }
 .box-blu1{
-    background-color: #FFC0CB;
     width: calc(30%);
     height: 30rem;
-    border-style: dashed;
+    
 }
 
 .box-pink1{
-    background-color: #1E90FF;
+    background-image: url(../img/item2.svg);
+    padding-left: 150px;
+    background-repeat: no-repeat;
     width: calc(70%);
     height: 30rem;
-    border-style: dashed;
+    
+}
+
+.box-blu1 h1{
+    
+    font-size: 40px;
+    padding-right: 100px;
+    
+}
+.box-blu1 p{
+    text-align: justify;
+    padding-top: 50px;
+    font-size: 20px;
 }
  /* terzo box */
  .container{
@@ -134,35 +195,88 @@
     width: 1250px;
     display: flex;
 }
-.box-blu{
-    background-color: #1E90FF;
+.box-blu2{
+    background-image: url(../img/item3.svg);
+    background-repeat: no-repeat;
     width: calc(70%);
     height: 30rem;
-    border-style: dashed;
+    
 }
 
-.box-pink{
-    background-color: #FFC0CB;
+.box-pink2{
+   
     width: calc(30%);
     height: 30rem;
-    border-style: dashed;
+   
     
+}
+
+.box-pink2 h1{
+    
+    font-size: 40px;
+    padding-right: 100px;
+    
+}
+.box-pink2 p{
+    
+    padding-top: 50px;
+    font-size: 20px;
 }
 /* box verde */
 .grey-box{
+    flex-wrap: wrap;
     margin-top: 1rem;
-    display: flex;
+   display: flex;
     height: 1040px;;
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 .green-box{
     margin: auto;
     display:flex;
-    background-color: #228B22;
-    height: 950px;
+    background-image: url(../img/item4-big.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
     width: 1250px;
-    border-style: dashed;
+    
+    }
+.green-box div{
+    margin: 0 auto;
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.green-box h1{
+    margin: auto;
+    padding: 10px;
+}
+
+.green-box p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.avventura{
+    background-color: #F6F6F6;
+    margin: 0 auto;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+    }
+
+.avventura button{
+    background-color: #7289DA;
+    margin: auto;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: medium;
 }
 /* fine box verde */
 
@@ -171,6 +285,7 @@
     display: flex;
     height: 660px;
     background-color:  #23272A;
+    
 }
 .container-footer{
     margin: auto;
