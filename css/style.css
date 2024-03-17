@@ -12,18 +12,19 @@
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
-    height: 610px;
+    height: 750px;
     
 }
            /***************** nav bar ***************** */
 .nav{
     background-color: #2A5EE8;
-    width: 1250px;
+    width: 80%;
     margin: auto;
     align-items: center;
     display: flex;
     padding:3px;
-    margin-top: 1%;   
+    
+   height: 10%;
 }
 
 .logo{
@@ -63,22 +64,21 @@
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 1rem;
+    height: 90%;
     width: 100%;
 }
 
 .big-box{
+    margin: 150px auto;
     flex-wrap: wrap;
-    margin: auto;
     display:flex;
-    height: 350px;
-    width: 900px;
-    
+    height: 450px;
+    width: 50%;
     justify-content: center;
 }
 
 .big-box h1{
-    font-size: 45px;
+    font-size: 50px;
     color: white;
     margin: auto;
     
@@ -86,19 +86,19 @@
 }
 
  .big-box p {
-    font-size: medium;
+    font-size: x-large;
     text-align: center;
     color: white;
-    margin: auto;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin:1rem auto 0;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .big-box button {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 15px;
+    margin-left: 1rem;
+    padding: 1rem;
+    height: 4rem;
+    font-size: x-large;
     border-radius: 30px;
 }
 
@@ -106,18 +106,26 @@
     background-color: #23272A;
     color: white;
 }
-
-
 /* fine header */
 
+.onda-invert{
+    background-image: url(../img/wave.svg);
+    height: 5rem;
+    transform: rotateX(0.5turn);
+    filter: opacity(0.04);
+}
 /* main */
-
+.onda{
+    background-image: url(../img/wave.svg);
+    filter: opacity(0.04);
+    width: 100%;
+    height: 5rem;
+}
 /* primo box */
 .box-main{
     display: flex;
     height: 625px;
 }
-
 .container{
     margin: auto;
     width: 1250px;
@@ -126,7 +134,7 @@
 .box-blu{
     background-image: url(../img/item1.svg);
     background-repeat: no-repeat;
-    width: calc(70%);
+    width: 70%;
     height: 30rem;
     
 }
@@ -134,17 +142,15 @@
 .box-pink{
     font-size: 25px;    
     justify-content: center;
-    width: calc(30%);
+    width:30%;
     height: 30rem;
     
 }
 .box-pink h1{
-    
     font-size: 40px;
-    padding-right: 100px;
+    padding-right: 2rem
 }
 .box-pink p{
-    
     padding-top: 50px;
     font-size: 20px;
 }
@@ -158,13 +164,12 @@
 }
 
 .container{
-    
     margin: auto;
     width: 1250px;
     display: flex;
 }
 .box-blu1{
-    width: calc(30%);
+    width:30%;
     height: 30rem;
     
 }
@@ -173,19 +178,18 @@
     background-image: url(../img/item2.svg);
     padding-left: 150px;
     background-repeat: no-repeat;
-    width: calc(70%);
+    width:70%;
     height: 30rem;
     
 }
 
 .box-blu1 h1{
-    
     font-size: 40px;
-    padding-right: 100px;
+    padding-right: 2rem;
     
 }
 .box-blu1 p{
-    text-align: justify;
+    padding-right: 3rem;
     padding-top: 50px;
     font-size: 20px;
 }
@@ -225,15 +229,14 @@
 /* box verde */
 .grey-box{
     flex-wrap: wrap;
-    margin-top: 1rem;
-   display: flex;
-    height: 1040px;;
+    display: flex;
+    height: 750px;;
     background-color: #F6F6F6;
 }
 
 .green-box{
     margin: auto;
-    display:flex;
+    text-align: center;
     background-image: url(../img/item4-big.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -244,46 +247,56 @@
 .green-box div{
     margin: 0 auto;
     width: 70%;
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
 }
+
 .green-box h1{
-    margin: auto;
-    padding: 10px;
-}
-
+    padding: 2rem;
+   }
 .green-box p{
+    margin-left:15%;
+    width: 65%;
     text-align: center;
-    padding-top: 20px;
 }
 
-.avventura{
-    background-color: #F6F6F6;
-    margin: 0 auto;
+.star{
+ background-color: #F6F6F6;
+ background-image: url(../img/stars.svg);
+ height: 5rem;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+.star h2{
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.mac{
     display: flex;
-    width:100%;
-    justify-content: center;
-    background-image: url(../img/stars.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 50px;
-    }
-
-.avventura button{
-    background-color: #7289DA;
-    margin: auto;
-    padding: 15px;
-    border-radius: 30px;
-    color: white;
-    font-size: medium;
+    justify-content:center ;
+    height: 20rem;
+    width: 100%;
+    background-color:  #F6F6F6;
 }
+.mac button{
+    margin-top: 5rem;
+    color: white;
+    border: 0;
+    background-color: #7289DA;
+    display: flex;
+    justify-content:center ;
+    margin-left: 1rem;
+    padding: 1rem;
+    height: 4rem;
+    font-size: x-large;
+    border-radius: 30px;
+}
+
 /* fine box verde */
 
 /* inizio footer */
 .box-footer{
-    display: flex;
-   height: 950px;
+    min-height: 650px;
     background-color:  #23272A;
     
 }
@@ -294,18 +307,26 @@
 }
 /* box diviso */
 .box-red{
-    margin-bottom: 40px;
     width: calc(60%);
     height: 600px;
-   
 }
 
 .box-red h1{
-    padding-top: 50px;
+padding-top: 50px;
 color: #7289DA;
+margin-bottom: 2rem;
 }
 
+.ita img{
+    padding-right: 1rem;
+    height: 1rem
+   
+}
+.ita{
+   color: white;
+}
 .box-red section{
+    margin-top: 2rem;
     color: white;
     font-size: 25px;
     height: 16px;
@@ -318,9 +339,7 @@ color: #7289DA;
     padding-left: 15px;
 }
 .box-acqua{ 
-    margin-bottom: 40px;
     width: calc(40%);
-    height: 600px;
     border-color: white;
     
 }
@@ -337,7 +356,7 @@ color: #7289DA;
     padding-top: 20px;
 }
 .box-acqua li{
-padding: 20px;
+padding: 15px;
 }
 /* hr e finale */
 
